@@ -4,5 +4,5 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 EXPOSE 80
-ENV NAME=World VERSION=v1
+ENV NAME=World VERSION=v7
 CMD ["python", "app.py"]
